@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nb_Pomme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:title="nombre de pomme" />
+    <item
+        android:id="@+id/nb_Poire"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:title="nombre de poire"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nb_quiter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:title="Quitter"
+        app:showAsAction="never" />
+
+</menu>

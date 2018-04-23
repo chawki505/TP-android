@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/valeur_temperature_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="saisir une valeur de temperature"
+        android:inputType="number|numberDecimal|numberSigned" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/ctof_radionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C to F" />
+
+        <RadioButton
+            android:id="@+id/ftoc_radionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F to C" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/convertir_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Convertir" />
+
+
+    <TextView
+        android:id="@+id/resultat_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Resultat"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/mode_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="#eee"
+        android:text="mode : Convertion de temperature" />
+
+</LinearLayout>

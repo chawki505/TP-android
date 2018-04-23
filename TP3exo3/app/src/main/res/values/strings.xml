@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">actionBar</string>
+    <string name="action_clear">exit</string>
+    <string name="action_search">chercher</string>
+    <string name="action_upload">upload</string>
+</resources>
